@@ -10,10 +10,8 @@ int main() {
         cout<<"vero"<<endl;
         cout << funzione2(a);
     }
-    else if (funzione1(a)==false){
-        string falso= "errore";
-        cout<<falso;
-        
+    else {
+        cout << "errore"<< endl;
 
     }
 
@@ -21,6 +19,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
