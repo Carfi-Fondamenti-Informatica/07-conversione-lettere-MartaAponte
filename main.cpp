@@ -1,24 +1,17 @@
 #include <iostream>
-#include "libreria.h"
+#include "lib.h"
 using namespace std;
 
 int main() {
-
     char a;
     cin>> a;
-    if (funzione1 (a)== true){
-
-        cout << funzione2(a);
+    if (riconoscimento (a) ==true){
+        cout << conversione (a);
     }
     else {
         cout << "errore"<< endl;
-
     }
-
-
-
     return 0;
 }
-
 
 
