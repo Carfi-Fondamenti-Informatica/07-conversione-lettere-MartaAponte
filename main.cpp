@@ -4,15 +4,14 @@ using namespace std;
 
 int main() {
 
-    char a=0;
+    char a;
     cin>> a;
-    if (funzione1(a)){
-        
+    if (funzione1 (a)== true){
+
         cout << funzione2(a);
     }
     else {
-        string falso="errore";
-        cout<<falso;
+        cout << "errore"<< endl;
 
     }
 
@@ -20,8 +19,6 @@ int main() {
 
     return 0;
 }
-
-
 
 
 
