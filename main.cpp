@@ -6,12 +6,13 @@ int main() {
 
     char a=0;
     cin>> a;
-    if (funzione1(a)==true){
+    if (funzione1(a)){
         
         cout << funzione2(a);
     }
     else {
-        cout << "errore"<< endl;
+        string falso="errore";
+        cout<<falso;
 
     }
 
