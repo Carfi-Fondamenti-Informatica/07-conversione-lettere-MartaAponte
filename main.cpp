@@ -11,7 +11,9 @@ int main() {
         cout << funzione2(a);
     }
     else if (funzione1(a)==false){
-        cout <<"errore"<<endl;
+        string falso= "errore";
+        cout<<falso;
+        
 
     }
 
@@ -19,5 +21,6 @@ int main() {
 
     return 0;
 }
+
 
 
