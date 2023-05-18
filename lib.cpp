@@ -1,4 +1,4 @@
-#include "libreria.h"
+#include "lib.h"
 bool riconoscimento(char a){
     int b ;
     b = int(a);
